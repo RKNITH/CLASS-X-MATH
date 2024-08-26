@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 2 - बहुपद</title>
+    <link rel="stylesheet" href="../chapterStyles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Chapter 1 - बहुपद</h1>
+    </header>
+    <main>
+        <section>
+            <h2>बहुपद की परिभाषा, डिग्री और पावर, सामान्य रूप एवं प्रकार</h2>
+            <p>बहुपद (Polynomial) एक ऐसा गणितीय अभिव्यक्ति है जिसमें विभिन्न पद (terms) होते हैं जो एक या अधिक चरों
+                (variables) के घात (power) और उनके गुणांक (coefficients) के गुणनफल होते हैं।</p>
+
+            <h3>सामान्य रूप (General Form)</h3>
+            <p>एक n डिग्री वाले बहुपद का सामान्य रूप निम्नलिखित है:</p>
+            <p><strong>P(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + ... + a<sub>1</sub>x +
+                    a<sub>0</sub></strong></p>
+            <p>यहाँ,</p>
+            <ul>
+                <li><strong>a<sub>n</sub>, a<sub>n-1</sub>, ..., a<sub>1</sub>, a<sub>0</sub></strong> बहुपद के गुणांक
+                    (coefficients) हैं।</li>
+                <li><strong>n</strong> बहुपद की डिग्री है।</li>
+                <li><strong>x</strong> वह चर है जिसके लिए बहुपद लिखा गया है।</li>
+            </ul>
+
+            <h3>डिग्री और पावर</h3>
+            <p>बहुपद में किसी भी चर के घातांक को उस चर की पावर कहते हैं। बहुपद की डिग्री उस बहुपद में सबसे बड़ी पावर
+                होती है।</p>
+            <p><strong>उदाहरण:</strong> <em>3x<sup>4</sup> + 2x<sup>3</sup> - x + 7</em> में,</p>
+            <ul>
+                <li><strong>पावर:</strong> 4, 3, 1</li>
+                <li><strong>डिग्री:</strong> 4 (क्योंकि यह सबसे बड़ी पावर है)</li>
+            </ul>
+
+            <h3>बहुपद के प्रकार</h3>
+            <p>बहुपद को उनकी डिग्री और पदों की संख्या के आधार पर वर्गीकृत किया जाता है:</p>
+
+            <h4>1. शून्य बहुपद (Zero Polynomial)</h4>
+            <p>जिस बहुपद में सभी गुणांक शून्य होते हैं, उसे शून्य बहुपद कहा जाता है। <strong>उदाहरण:</strong> <em>0</em>
+            </p>
+
+            <h4>2. स्थिर बहुपद (Constant Polynomial)</h4>
+            <p>जिस बहुपद में कोई चर नहीं होता, केवल एक स्थिरांक होता है, उसे स्थिर बहुपद कहा जाता है।
+                <strong>उदाहरण:</strong> <em>5, -3</em>
+            </p>
+
+            <h4>3. रैखिक बहुपद (Linear Polynomial)</h4>
+            <p>जिस बहुपद की डिग्री 1 होती है, उसे रैखिक बहुपद कहा जाता है। <strong>उदाहरण:</strong> <em>2x + 1</em></p>
+
+            <h4>4. द्विघात बहुपद (Quadratic Polynomial)</h4>
+            <p>जिस बहुपद की डिग्री 2 होती है, उसे द्विघात बहुपद कहा जाता है। <strong>उदाहरण:</strong> <em>x<sup>2</sup>
+                    - 4x + 4</em></p>
+
+            <h4>5. त्रिघात बहुपद (Cubic Polynomial)</h4>
+            <p>जिस बहुपद की डिग्री 3 होती है, उसे त्रिघात बहुपद कहा जाता है। <strong>उदाहरण:</strong> <em>2x<sup>3</sup>
+                    - 5x<sup>2</sup> + x - 1</em></p>
+
+            <h4>6. चतुर्थघात बहुपद (Quartic Polynomial)</h4>
+            <p>जिस बहुपद की डिग्री 4 होती है, उसे चतुर्थघात बहुपद कहा जाता है। <strong>उदाहरण:</strong>
+                <em>x<sup>4</sup> - 3x<sup>3</sup> + 3x<sup>2</sup> - x + 1</em>
+            </p>
+        </section>
+        <section>
+            <h2>समीकरण की परिभाषा, सामान्य रूप, मूल, एवं प्रकार</h2>
+            <p>समीकरण (Equation) एक गणितीय वाक्य है जो दो अभिव्यक्तियों को समान मानता है और उन्हें एक बराबरी चिन्ह
+                (<strong>=</strong>) के माध्यम से जोड़ा जाता है।</p>
+
+            <h3>सामान्य रूप (General Form)</h3>
+            <p>समीकरण का सामान्य रूप इस प्रकार है:</p>
+            <p><strong>ax + b = 0</strong></p>
+            <p>यहाँ,</p>
+            <ul>
+                <li><strong>a</strong> और <strong>b</strong> समीकरण के गुणांक (coefficients) हैं।</li>
+                <li><strong>x</strong> वह चर (variable) है जिसे हल करना है।</li>
+            </ul>
+
+            <h3>मूल (Roots of Equation)</h3>
+            <p>समीकरण का मूल (Root) वह मान होता है जिसे चर (variable) में रखने पर समीकरण सत्य हो जाता है। दूसरे शब्दों
+                में, यदि x = r समीकरण <strong>ax + b = 0</strong> को संतुष्ट करता है, तो r समीकरण का मूल होता है।</p>
+
+            <h3>समीकरण के प्रकार</h3>
+            <p>समीकरण को उनके डिग्री, चर की संख्या, और गुणांक के प्रकार के आधार पर वर्गीकृत किया जा सकता है:</p>
+
+            <h4>1. रैखिक समीकरण (Linear Equation)</h4>
+            <p>जिस समीकरण में चर की डिग्री 1 होती है, उसे रैखिक समीकरण कहा जाता है। <strong>उदाहरण:</strong> <em>2x + 3
+                    = 0</em></p>
+
+            <h4>2. द्विघात समीकरण (Quadratic Equation)</h4>
+            <p>जिस समीकरण में चर की डिग्री 2 होती है, उसे द्विघात समीकरण कहा जाता है। <strong>उदाहरण:</strong>
+                <em>x<sup>2</sup> - 4x + 4 = 0</em>
+            </p>
+
+            <h4>3. घनात्मक समीकरण (Cubic Equation)</h4>
+            <p>जिस समीकरण में चर की डिग्री 3 होती है, उसे घनात्मक समीकरण कहा जाता है। <strong>उदाहरण:</strong>
+                <em>x<sup>3</sup> - 3x<sup>2</sup> + 3x - 1 = 0</em>
+            </p>
+
+
+
+        </section>
+        <section>
+            <h2>एक चर वाले रैखिक समीकरण (Linear Equation of a Single Variable)</h2>
+
+            <h3>रैखिक समीकरण की परिभाषा (Definition of Linear Equation)</h3>
+            <p>एक चर वाले रैखिक समीकरण एक ऐसा समीकरण होता है जिसमें चर की डिग्री 1 होती है। इसे इस रूप में लिखा जा सकता
+                है:</p>
+            <p><strong>ax + b = 0</strong></p>
+            <p>यहाँ,</p>
+            <ul>
+                <li><strong>a</strong> और <strong>b</strong> वास्तविक संख्या (real numbers) हैं।</li>
+                <li><strong>x</strong> वह चर है जिसे हल करना होता है।</li>
+                <li><strong>a</strong> ≠ 0, क्योंकि यदि a = 0 हो जाए, तो समीकरण रैखिक नहीं रहेगा।</li>
+            </ul>
+
+            <h3>रैखिक समीकरण का मूल (Root of Linear Equation)</h3>
+            <p>एक चर वाले रैखिक समीकरण का मूल वह मान है जिसे चर (x) में रखने पर समीकरण संतुलित हो जाता है। इसे
+                निम्नलिखित तरीके से हल किया जा सकता है:</p>
+            <ul>
+                <li>समीकरण: <strong>ax + b = 0</strong></li>
+                <li>चर के लिए हल करें: <strong>x = -b/a</strong></li>
+            </ul>
+            <p><strong>उदाहरण:</strong> <em>2x + 3 = 0</em> का मूल:</p>
+            <ul>
+                <li>चर के लिए हल करें: <strong>x = -3/2</strong></li>
+            </ul>
+
+            <h3>रैखिक समीकरण का ग्राफ (Graph of Linear Equation)</h3>
+            <p>एक चर वाले रैखिक समीकरण का ग्राफ एक सीधी रेखा होती है। इस रेखा का झुकाव (slope) और y-अवरोध (y-intercept)
+                सीधे तौर पर समीकरण से संबंधित होते हैं।</p>
+
+            <h4>ग्राफ खींचने के चरण (Steps to Draw the Graph)</h4>
+            <ol>
+                <li>समीकरण <strong>ax + b = 0</strong> को इस रूप में बदलें: <strong>x = -b/a</strong>।</li>
+                <li>इस समीकरण का मूल (x = c) x-अक्ष पर एक बिंदु देता है।</li>
+                <li>चूंकि यह एक चर वाला रैखिक समीकरण है, इसका ग्राफ x-अक्ष पर एक लंबवत (vertical) रेखा होगी जो <strong>x
+                        = c</strong> पर स्थित होगी।</li>
+            </ol>
+
+            <h4>उदाहरण:</h4>
+            <p>समीकरण <strong>2x + 6 = 0</strong> का ग्राफ खींचने के लिए:</p>
+            <ul>
+                <li>चर के लिए हल करें: <strong>x = -6/2 = -3</strong></li>
+                <li>ग्राफ में, <strong>x = -3</strong> पर x-अक्ष पर एक लंबवत रेखा खींचें।</li>
+            </ul>
+
+            <h4>वैकल्पिक परिदृश्य (Alternative Scenario)</h4>
+            <p>अगर रैखिक समीकरण y के संदर्भ में दिया गया हो (उदाहरण: y = mx + c), तो इसका ग्राफ इस प्रकार खींचा जाएगा:
+            </p>
+            <ol>
+                <li>y = mx + c समीकरण को देखें:</li>
+                <li>y-अवरोध (y-intercept, c) पर बिंदु अंकित करें।</li>
+                <li>m (slope) के अनुसार रेखा खींचें।</li>
+            </ol>
+            <p><strong>उदाहरण:</strong> <em>y = 2x + 1</em> का ग्राफ खींचने के लिए:</p>
+            <ul>
+                <li>y-अवरोध <strong>1</strong> पर बिंदु अंकित करें।</li>
+                <li>slope <strong>2</strong> का उपयोग करते हुए, रेखा खींचें।</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>द्विघात समीकरण (Quadratic Equation)</h2>
+
+            <h3>द्विघात समीकरण की परिभाषा (Definition of Quadratic Equation)</h3>
+            <p>द्विघात समीकरण वह समीकरण होता है जिसमें अज्ञात चर (जैसे x) का अधिकतम घातांक 2 होता है। इसे द्विघात समीकरण
+                कहा जाता है क्योंकि इसमें 'द्विघात' पद (x²) होता है।</p>
+
+            <h3>द्विघात समीकरण का सामान्य रूप (General Form of Quadratic Equation)</h3>
+            <p>द्विघात समीकरण का सामान्य रूप निम्नलिखित होता है:</p>
+            <p><strong>ax² + bx + c = 0</strong></p>
+            <p>यहाँ:</p>
+            <ul>
+                <li><strong>a</strong> = द्विघात गुणांक (Coefficient of x²)</li>
+                <li><strong>b</strong> = रैखिक गुणांक (Coefficient of x)</li>
+                <li><strong>c</strong> = नियतांक (Constant term)</li>
+            </ul>
+
+            <h3>गुणांक और मूलों के बीच संबंध (Relation between Coefficients and Roots)</h3>
+            <p>यदि α और β द्विघात समीकरण के मूल हैं, तो:</p>
+            <ul>
+                <li>मूलों का योग: <strong>α + β = -b/a</strong></li>
+                <li>मूलों का गुणनफल: <strong>αβ = c/a</strong></li>
+            </ul>
+
+            <h3>द्विघात समीकरण के विभिन्न प्रकार के ग्राफ (Types of Graphs of Quadratic Equations)</h3>
+            <p>द्विघात समीकरण का ग्राफ एक पराबोल (Parabola) होता है, और यह x-अक्ष के सापेक्ष विभिन्न प्रकार का हो सकता
+                है, जो विवर्ण (Discriminant, D = b² - 4ac) के आधार पर तय होता है।</p>
+
+            <h4>1. वास्तविक और भिन्न मूल (Real and Different Roots)</h4>
+            <p>यदि विवर्ण (D) > 0 होता है, तो द्विघात समीकरण के दो वास्तविक और भिन्न मूल होते हैं। पराबोल x-अक्ष को दो
+                अलग-अलग बिंदुओं पर काटता है।</p>
+
+            <h4>उदाहरण:</h4>
+            <p>समीकरण: <strong>x² - 5x + 6 = 0</strong></p>
+            <ol>
+                <li><strong>विवर्ण (Discriminant) निकालें:</strong><br>
+                    <strong>D = b² - 4ac</strong><br>
+                    <strong>D = (-5)² - 4(1)(6) = 25 - 24 = 1</strong>
+                </li>
+                <li><strong>मूल निकालें:</strong><br>
+                    <strong>x = [-b ± √D] / 2a</strong><br>
+                    <strong>x₁ = [5 + √1] / 2 = 6/2 = 3</strong><br>
+                    <strong>x₂ = [5 - √1] / 2 = 4/2 = 2</strong>
+                </li>
+            </ol>
+            <p>तो, इस समीकरण के वास्तविक और भिन्न मूल हैं: <strong>x₁ = 3</strong> और <strong>x₂ = 2</strong>.</p>
+
+            <h4>2. वास्तविक और समान मूल (Real and Equal Roots)</h4>
+            <p>यदि विवर्ण (D) = 0 होता है, तो द्विघात समीकरण के दो वास्तविक और समान मूल होते हैं। पराबोल x-अक्ष को एक ही
+                बिंदु पर स्पर्श करता है।</p>
+
+            <h4>उदाहरण:</h4>
+            <p>समीकरण: <strong>x² - 4x + 4 = 0</strong></p>
+            <ol>
+                <li><strong>विवर्ण (Discriminant) निकालें:</strong><br>
+                    <strong>D = b² - 4ac</strong><br>
+                    <strong>D = (-4)² - 4(1)(4) = 16 - 16 = 0</strong>
+                </li>
+                <li><strong>मूल निकालें:</strong><br>
+                    <strong>x = [-b ± √D] / 2a</strong><br>
+                    <strong>x₁ = x₂ = [4 ± 0] / 2 = 4/2 = 2</strong>
+                </li>
+            </ol>
+            <p>तो, इस समीकरण के समान वास्तविक मूल हैं: <strong>x₁ = x₂ = 2</strong>.</p>
+
+            <h4>3. काल्पनिक (मिथ्या) मूल (Imaginary Roots)</h4>
+            <p>यदि विवर्ण (D) < 0 होता है, तो द्विघात समीकरण के कोई वास्तविक मूल नहीं होते हैं। पराबोल x-अक्ष को नहीं
+                    काटता है। इस स्थिति में मूल काल्पनिक होते हैं।</p>
+
+                    <h4>उदाहरण:</h4>
+                    <p>समीकरण: <strong>x² + 4x + 5 = 0</strong></p>
+                    <ol>
+                        <li><strong>विवर्ण (Discriminant) निकालें:</strong><br>
+                            <strong>D = b² - 4ac</strong><br>
+                            <strong>D = (4)² - 4(1)(5) = 16 - 20 = -4</strong>
+                        </li>
+                        <li><strong>मूल निकालें:</strong><br>
+                            <strong>x = [-b ± √D] / 2a</strong><br>
+                            <strong>x₁ = [-4 + √(-4)] / 2 = [-4 + 2i] / 2 = -2 + i</strong><br>
+                            <strong>x₂ = [-4 - √(-4)] / 2 = [-4 - 2i] / 2 = -2 - i</strong>
+                        </li>
+                    </ol>
+                    <p>तो, इस समीकरण के काल्पनिक मूल हैं: <strong>x₁ = -2 + i</strong> और <strong>x₂ = -2 - i</strong>.
+                    </p>
+        </section>
+        <section>
+            <h2>घन समीकरण (Cubic Equation)</h2>
+
+            <h3>घन समीकरण की परिभाषा (Definition of Cubic Equation)</h3>
+            <p>घन समीकरण वह समीकरण होता है जिसमें अज्ञात चर (जैसे x) का अधिकतम घातांक 3 होता है। इसे घन समीकरण कहा जाता
+                है क्योंकि इसमें 'घन' पद (x³) होता है।</p>
+
+            <h3>घन समीकरण का सामान्य रूप (General Form of Cubic Equation)</h3>
+            <p>घन समीकरण का सामान्य रूप निम्नलिखित होता है:</p>
+            <p><strong>ax³ + bx² + cx + d = 0</strong></p>
+            <p>यहाँ:</p>
+            <ul>
+                <li><strong>a</strong> = घन गुणांक (Coefficient of x³)</li>
+                <li><strong>b</strong> = वर्ग गुणांक (Coefficient of x²)</li>
+                <li><strong>c</strong> = रैखिक गुणांक (Coefficient of x)</li>
+                <li><strong>d</strong> = नियतांक (Constant term)</li>
+            </ul>
+
+            <h3>घन समीकरण की मूल (Roots of Cubic Equation)</h3>
+            <p>घन समीकरण के तीन मूल हो सकती हैं, और वे वास्तविक या काल्पनिक हो सकती हैं। ये मूल निम्नलिखित प्रकार की
+                हो सकती हैं:</p>
+            <ul>
+                <li><strong>तीन वास्तविक मूल (Three Real Roots):</strong> सभी मूल वास्तविक और भिन्न होती हैं।</li>
+                <li><strong>एक वास्तविक और दो काल्पनिक मूल (One Real and Two Imaginary Roots):</strong> एक जड़
+                    वास्तविक और दो मूल काल्पनिक होती हैं।</li>
+                <li><strong>तीन समान मूल (Three Equal Roots):</strong> सभी मूल समान होती हैं।</li>
+            </ul>
+
+            <h3>गुणांकों और जड़ों के बीच संबंध (Relation between Coefficients and Roots)</h3>
+            <p>यदि <strong>α</strong>, <strong>β</strong>, और <strong>γ</strong> घन समीकरण <strong>ax³ + bx² + cx + d =
+                    0</strong> के मूल हैं, तो:</p>
+            <ul>
+                <li><strong>मूलों का योग:</strong> <br>α + β + γ = -b/a</li>
+                <li><strong>मूलों का योग के जोड़:</strong> <br>αβ + βγ + γα = c/a</li>
+                <li><strong>मूलों का गुणनफल:</strong> <br>αβγ = -d/a</li>
+            </ul>
+
+            <h3>उदाहरण (Example):</h3>
+            <p>समीकरण: <strong>x³ - 6x² + 11x - 6 = 0</strong></p>
+            <ol>
+                <li><strong>कारणकारी नियम (Rational Root Theorem) का प्रयोग करें:</strong><br>
+                    इस समीकरण के लिए संभावित परिमेय मूल ±1, ±2, ±3, और ±6 हो सकती हैं।</li>
+                <li><strong>समीकरण में इन मूल्यों को डालें:</strong><br>
+                    <strong>x = 1</strong> पर:<br>
+                    <strong>1³ - 6(1)² + 11(1) - 6 = 1 - 6 + 11 - 6 = 0</strong><br>
+                    <strong>x = 1</strong> समीकरण की एक जड़ है।
+                </li>
+                <li><strong>घटाव द्वारा दूसरे समीकरण का निर्माण करें:</strong><br>
+                    <strong>(x - 1)(x² - 5x + 6) = 0</strong>
+                </li>
+                <li><strong>द्विघात समीकरण को हल करें:</strong><br>
+                    <strong>x² - 5x + 6 = 0</strong><br>
+                    <strong>x₁ = 2</strong>, <strong>x₂ = 3</strong>
+                </li>
+            </ol>
+            <p>तो, समीकरण <strong>x³ - 6x² + 11x - 6 = 0</strong> की मूल हैं: <strong>x₁ = 1</strong>, <strong>x₂ =
+                    2</strong>, और <strong>x₃ = 3</strong>.</p>
+
+            <h3>घन समीकरण के विभिन्न प्रकार के ग्राफ (Types of Graphs of Cubic Equations)</h3>
+            <p>घन समीकरण का ग्राफ एक वक्र (Curve) होता है जो x-अक्ष को एक, दो, या तीन बिंदुओं पर काट सकता है, जो जड़ों
+                के प्रकार पर निर्भर करता है।</p>
+            <ul>
+                <li><strong>तीन वास्तविक मूल :</strong> ग्राफ x-अक्ष को तीन बिंदुओं पर काटता है।</li>
+                <li><strong>एक वास्तविक और दो काल्पनिक मूल :</strong> ग्राफ x-अक्ष को केवल एक बिंदु पर काटता है।</li>
+                <li><strong>तीन समान मूल :</strong> ग्राफ x-अक्ष को एक बिंदु पर स्पर्श करता है और उसके बाद दिशा बदलता
+                    है।</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>समीकरण के संभावित अधिकतम मूल (Maximum Roots of Equations)</h2>
+
+            <h3>समीकरण के अधिकतम जड़ों की संख्या (Maximum Number of Roots)</h3>
+            <p>समीकरण की जड़ों की संख्या उसके डिग्री (degree) पर निर्भर करती है। सामान्य रूप में, एक समीकरण के अधिकतम
+                मूल उसकी डिग्री के बराबर हो सकती हैं।</p>
+
+            <p>उदाहरण के लिए:</p>
+            <ul>
+                <li>एक <strong>रैखिक समीकरण (Linear Equation)</strong> जैसे कि <strong>ax + b = 0</strong> में केवल एक
+                    जड़ हो सकती है। (डिग्री = 1)</li>
+                <li>एक <strong>द्विघात समीकरण (Quadratic Equation)</strong> जैसे कि <strong>ax² + bx + c = 0</strong>
+                    में अधिकतम दो मूल हो सकती हैं। (डिग्री = 2)</li>
+                <li>एक <strong>घन समीकरण (Cubic Equation)</strong> जैसे कि <strong>ax³ + bx² + cx + d = 0</strong> में
+                    अधिकतम तीन मूल हो सकती हैं। (डिग्री = 3)</li>
+
+            </ul>
+
+        </section>
+
+        <section>
+            <h2>एक बहुपद को दूसरे बहुपद द्वारा विभाजित करने के तरीके (Methods of Dividing One Polynomial by Another
+                Polynomial)</h2>
+
+            <h3>1. विभाजन विधि (Polynomial Division)</h3>
+            <p>यह विधि उस प्रक्रिया का अनुसरण करती है जो बहुपद को भाग देने के लिए बुनियादी अंकगणितीय विभाजन के
+                सिद्धांतों पर आधारित है।</p>
+
+            <h4>विधि:</h4>
+            <ol>
+                <li>भाग देने वाले बहुपद को डिवीडेंड से विभाजित करें।</li>
+                <li>मूल्य निकालें और बचे हुए भाग को पुनः विभाजित करें।</li>
+                <li>सभी भागों को जोड़ें और अंतिम उत्तर प्राप्त करें।</li>
+            </ol>
+
+            <h4>उदाहरण:</h4>
+            <p>विभाजित करें: <strong>(2x³ + 3x² - 5x + 6) ÷ (x - 2)</strong></p>
+            <p>विवरण:</p>
+            <ol>
+                <li>पहले पद (2x³) को विभाजित करें: <strong>2x³ ÷ x = 2x²</strong></li>
+                <li>अब, <strong>2x²</strong> को <strong>x - 2</strong> से गुणा करें और परिणाम को घटाएं:</li>
+                <pre>
+                2x³ + 3x² - 5x + 6
+                - (2x³ - 4x²)
+                ----------------
+                       7x² - 5x + 6
+                </pre>
+                <li>अगले पद को विभाजित करें: <strong>7x² ÷ x = 7x</strong></li>
+                <li>अब, <strong>7x</strong> को <strong>x - 2</strong> से गुणा करें और परिणाम को घटाएं:</li>
+                <pre>
+                7x² - 5x + 6
+                - (7x² - 14x)
+                --------------
+                       9x + 6
+                </pre>
+                <li>अंत में, <strong>9x ÷ x = 9</strong> और इसे <strong>x - 2</strong> से गुणा करें:</li>
+                <pre>
+                9x + 6
+                - (9x - 18)
+                ------------
+                     24
+                </pre>
+                <p>अंतिम उत्तर है: <strong>2x² + 7x + 9</strong> और बाकी <strong>24</strong></p>
+                </p>
+
+                <h3>2. लांग डिवीजन (Long Division)</h3>
+                <p>यह विधि एक विशिष्ट प्रकार की विभाजन विधि है जिसका उपयोग बहुपद को विभाजित करने के लिए किया जाता है,
+                    जैसे हम अंकगणितीय विभाजन में करते हैं।</p>
+
+                <h4>उदाहरण:</h4>
+                <p>विभाजित करें: <strong>(4x³ - 2x² + 3x - 1) ÷ (x + 1)</strong></p>
+                <p>विवरण:</p>
+                <ol>
+                    <li>पहले पद (4x³) को विभाजित करें: <strong>4x³ ÷ x = 4x²</strong></li>
+                    <li>अब, <strong>4x²</strong> को <strong>x + 1</strong> से गुणा करें और परिणाम को घटाएं:</li>
+                    <pre>
+                4x³ - 2x² + 3x - 1
+                - (4x³ + 4x²)
+                --------------
+                      -6x² + 3x - 1
+                </pre>
+                    <li>अगले पद को विभाजित करें: <strong>-6x² ÷ x = -6x</strong></li>
+                    <li>अब, <strong>-6x</strong> को <strong>x + 1</strong> से गुणा करें और परिणाम को घटाएं:</li>
+                    <pre>
+                -6x² + 3x - 1
+                - (-6x² - 6x)
+                --------------
+                       9x - 1
+                </pre>
+                    <li>अंत में, <strong>9x ÷ x = 9</strong> और इसे <strong>x + 1</strong> से गुणा करें:</li>
+                    <pre>
+                9x - 1
+                - (9x + 9)
+                ------------
+                     -10
+                </pre>
+                    <p>अंतिम उत्तर है: <strong>4x² - 6x + 9</strong> और बाकी <strong>-10</strong></p>
+                    </p>
+
+                    <h3>3. सिंथेटिक डिवीजन (Synthetic Division)</h3>
+                    <p>यह विधि तब उपयोगी होती है जब डिवीडेंड की डिग्री कम हो और डिवाइज़र एक रैखिक बहुपद हो। इसमें
+                        अंकगणितीय गणनाओं को सरल बनाने के लिए सिंथेटिक विभाजन का उपयोग किया जाता है।</p>
+
+                    <h4>उदाहरण:</h4>
+                    <p>विभाजित करें: <strong>(2x³ - 6x² + 2x + 4) ÷ (x - 2)</strong></p>
+                    <p>विवरण:</p>
+                    <ol>
+                        <li>डिवाइडर <strong>x - 2</strong> के लिए रूट <strong>2</strong> को उपयोग करें।</li>
+                        <li>संपर्कों को क्रम से रखें: <strong>2, -6, 2, 4</strong></li>
+                        <li>सिंथेटिक विभाजन करें:</li>
+                        <pre>
+                   2   |   2   -6   2   4
+                       |       4  -4  -4
+                       ----------------
+                           2  -2  -2  0
+                </pre>
+                        <p>अंतिम उत्तर है: <strong>2x² - 2x - 2</strong> और बाकी <strong>0</strong></p>
+                        </p>
+
+                        <h3>4. बहुपद विभाजन (Polynomial Long Division) और शेषांक प्रमेय (Remainder Theorem)</h3>
+                        <p>यह विधि बहुपद विभाजन का एक विस्तारित रूप है जो शेषांक प्रमेय को लागू करता है।</p>
+
+                        <h4>उदाहरण:</h4>
+                        <p>विभाजित करें: <strong>(3x⁴ - 5x³ + 2x² - x + 7) ÷ (x - 1)</strong></p>
+                        <p>विवरण:</p>
+                        <ol>
+                            <li>पहले पद (3x⁴) को विभाजित करें: <strong>3x³</strong></li>
+                            <li>अब, <strong>3x³</strong> को <strong>x - 1</strong> से गुणा करें और परिणाम को घटाएं:</li>
+                            <pre>
+                3x⁴ - 5x³ + 2x² - x + 7
+                - (3x⁴ - 3x³)
+                ---------------
+                    -2x³ + 2x² - x + 7
+                </pre>
+                            <li>अगले पद को विभाजित करें: <strong>-2x³ ÷ x = -2x²</strong></li>
+                            <li>अब, <strong>-2x²</strong> को <strong>x - 1</strong> से गुणा करें और परिणाम को घटाएं:
+                            </li>
+                            <pre>
+                -2x³ + 2x² - x + 7
+                - (-2x³ + 2x²)
+                ----------------
+                          -x + 7
+                </pre>
+                            <li>अंतिम पद को विभाजित करें: <strong>-x ÷ x = -1</strong></li>
+                            <li>अब, <strong>-1</strong> को <strong>x - 1</strong> से गुणा करें:</li>
+                            <pre>
+                -x + 7
+                - (-x + 1)
+                ----------
+                    6
+                </pre>
+                            <p>अंतिम उत्तर है: <strong>3x³ - 2x² - 1</strong> और बाकी <strong>6</strong></p>
+                            </p>
+        </section>
+        <section>
+            <h2>भागफल, भाजक, शेष, और डिवीडेंड के बीच संबंध (Relation between Dividend, Quotient, Remainder, and Divisor)
+            </h2>
+
+            <p>जब एक बहुपद (polynomial) को किसी अन्य बहुपद द्वारा विभाजित किया जाता है, तो हमें निम्नलिखित चार तत्व
+                मिलते हैं:</p>
+            <ul>
+                <li><strong>डिवीडेंड (Dividend):</strong> जिसे हम विभाजित कर रहे हैं।</li>
+                <li><strong>भाजक (Divisor):</strong> जिसे डिवीडेंड से विभाजित किया जाता है।</li>
+                <li><strong>भागफल (Quotient):</strong> विभाजन का परिणाम।</li>
+                <li><strong>शेष (Remainder):</strong> विभाजन के बाद बचे हुए भाग।</li>
+            </ul>
+
+            <h3>संबंध (Relation)</h3>
+            <p>विभाजन के इन चार तत्वों के बीच संबंध को निम्नलिखित सूत्र के द्वारा दर्शाया जाता है:</p>
+            <div class="scrollable-container">
+                <pre class="scrollable">
+        डिवीडेंड = भाजक × भागफल + शेष
+                </pre>
+            </div>
+            <p>इस सूत्र का उपयोग यह सुनिश्चित करने के लिए किया जाता है कि विभाजन सही तरीके से किया गया है। यदि हम इस
+                सूत्र को लागू करें, तो हमें सही परिणाम प्राप्त होगा।</p>
+
+            <h3>उदाहरण 1: रैखिक बहुपद (Linear Polynomial)</h3>
+            <p>विभाजित करें: <strong>(3x² + 5x + 2) ÷ (x + 1)</strong></p>
+
+            <p>विवरण:</p>
+            <ul>
+                <li>डिवीडेंड: <strong>3x² + 5x + 2</strong></li>
+                <li>भाजक: <strong>x + 1</strong></li>
+                <li>भागफल: <strong>3x + 2</strong></li>
+                <li>शेष: <strong>0</strong></li>
+            </ul>
+
+            <p>संबंध दिखाते हुए:</p>
+            <div class="scrollable-container">
+                <pre class="scrollable">
+        डिवीडेंड = भाजक × भागफल + शेष
+        3x² + 5x + 2 = (x + 1) × (3x + 2) + 0
+                </pre>
+            </div>
+
+            <p>गुणा और जोड़ने पर:</p>
+            <div class="scrollable-container">
+                <pre class="scrollable">
+        (x + 1) × (3x + 2) = 3x² + 2x + 3x + 2
+                          = 3x² + 5x + 2
+                </pre>
+            </div>
+
+            <h3>उदाहरण 2: बहुपद विभाजन (Polynomial Division)</h3>
+            <p>विभाजित करें: <strong>(2x³ - 6x² + 2x + 4) ÷ (x - 2)</strong></p>
+
+            <p>विवरण:</p>
+            <ul>
+                <li>डिवीडेंड: <strong>2x³ - 6x² + 2x + 4</strong></li>
+                <li>भाजक: <strong>x - 2</strong></li>
+                <li>भागफल: <strong>2x² - 2x - 2</strong></li>
+                <li>शेष: <strong>0</strong></li>
+            </ul>
+
+            <p>संबंध दिखाते हुए:</p>
+            <div class="scrollable-container">
+                <pre class="scrollable">
+        डिवीडेंड = भाजक × भागफल + शेष
+        2x³ - 6x² + 2x + 4 = (x - 2) × (2x² - 2x - 2) + 0
+                </pre>
+            </div>
+
+            <p>गुणा और जोड़ने पर:</p>
+            <div class="scrollable-container">
+                <pre class="scrollable">
+        (x - 2) × (2x² - 2x - 2) = 2x³ - 2x² - 2x² + 2x + 4x + 4
+                                = 2x³ - 6x² + 2x + 4
+                </pre>
+            </div>
+
+            <h3>उदाहरण 3: बहुपद विभाजन के साथ शेषांक (Polynomial Division with Remainder)</h3>
+            <p>विभाजित करें: <strong>(4x³ - 7x² + 3x + 5) ÷ (x + 2)</strong></p>
+
+            <p>विवरण:</p>
+            <ul>
+                <li>डिवीडेंड: <strong>4x³ - 7x² + 3x + 5</strong></li>
+                <li>भाजक: <strong>x + 2</strong></li>
+                <li>भागफल: <strong>4x² - 15x + 33</strong></li>
+                <li>शेष: <strong>-61</strong></li>
+            </ul>
+
+            <p>संबंध दिखाते हुए:</p>
+            <div class="scrollable-container">
+                <pre class="scrollable">
+        डिवीडेंड = भाजक × भागफल + शेष
+        4x³ - 7x² + 3x + 5 = (x + 2) × (4x² - 15x + 33) - 61
+                </pre>
+            </div>
+
+            <p>गुणा और जोड़ने पर:</p>
+            <div class="scrollable-container">
+                <pre class="scrollable">
+        (x + 2) × (4x² - 15x + 33) = 4x³ - 15x² + 33x + 8x² - 30x + 66
+                                  = 4x³ - 7x² + 3x + 5
+                </pre>
+            </div>
+
+            <p>अतः, इस प्रकार हम विभाजन के बाद शेष और भागफल की मदद से डिवीडेंड की पुष्टि कर सकते हैं।</p>
+        </section>
+
+        <style>
+            .scrollable-container {
+                overflow-x: auto;
+                border: 1px solid #ddd;
+                padding: 10px;
+                margin-top: 10px;
+            }
+
+            .scrollable {
+                white-space: nowrap;
+            }
+        </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer>
+        <a href="../index.html" class="home-btn">Home</a>
+    </footer>
+</body>
+
+</html>
